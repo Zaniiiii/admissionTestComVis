@@ -13,7 +13,7 @@ VIDEO_PATH = 'inputVideo/traffic_test.mp4'
 if not os.path.exists('outputVideo'):
     os.makedirs('outputVideo')
 OUTPUT_PATH = 'outputVideo/output_video.mp4'
-YOLO_MODEL_PATH = "models/best_rtdetr.pt"
+YOLO_MODEL_PATH = "models/best_yolo.pt"
 CLASSIFIER_PATH = 'models/best_classifier.pth'
 CLASS_NAMES_PATH = 'models/class_names.txt'
 
